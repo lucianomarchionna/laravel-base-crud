@@ -3,6 +3,6 @@
 @section('content')
     <div class="container">
         <h1>Indice Comic</h1>
-        @dump($comics);
+        @dump($comics)
     </div>
 @endsection
