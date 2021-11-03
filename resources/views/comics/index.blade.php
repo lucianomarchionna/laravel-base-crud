@@ -30,7 +30,7 @@
                         <td>{{$comic['type']}}</td>
                         <td class="text-center">
                             <a href="{{ route('comics.show', $comic['id']) }}" class="btn btn-info">Details</a>
-                            <a href="" class="btn btn-warning">Modify</a>
+                            <a href="{{ route('comics.edit', $comic['id']) }}" class="btn btn-warning">Modify</a>
                             <a href="" class="btn btn-danger">Delete</a>
                         </td>
                     </tr>
